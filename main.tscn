@@ -1,0 +1,327 @@
+[gd_scene load_steps=3 format=3 uid="uid://cgokfxdm1ilpj"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_gue66"]
+[ext_resource type="Texture2D" uid="uid://bqjus1gbjng7i" path="res://tausta.png" id="2_1452p"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_gue66")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -59.0
+offset_top = -216.0
+offset_right = 77.0
+offset_bottom = 288.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_1452p")
+stretch_mode = 1
+
+[node name="bet1" type="Button" parent="."]
+offset_left = 960.0
+offset_top = 153.0
+offset_right = 1110.0
+offset_bottom = 239.0
+text = "1 $"
+
+[node name="bet5" type="Button" parent="."]
+offset_left = 960.0
+offset_top = 252.0
+offset_right = 1110.0
+offset_bottom = 338.0
+text = "5 $"
+
+[node name="bet50" type="Button" parent="."]
+offset_left = 960.0
+offset_top = 545.0
+offset_right = 1110.0
+offset_bottom = 631.0
+text = "50 $"
+
+[node name="bet20" type="Button" parent="."]
+offset_left = 960.0
+offset_top = 446.0
+offset_right = 1110.0
+offset_bottom = 532.0
+text = "20 $"
+
+[node name="bet10" type="Button" parent="."]
+offset_left = 960.0
+offset_top = 348.0
+offset_right = 1110.0
+offset_bottom = 434.0
+text = "10 $"
+
+[node name="neg_bet50" type="Button" parent="."]
+offset_left = 29.0
+offset_top = 545.0
+offset_right = 179.0
+offset_bottom = 631.0
+text = "-50 $"
+
+[node name="neg_bet20" type="Button" parent="."]
+offset_left = 29.0
+offset_top = 446.0
+offset_right = 179.0
+offset_bottom = 532.0
+text = "-20 $"
+
+[node name="neg_bet10" type="Button" parent="."]
+offset_left = 29.0
+offset_top = 348.0
+offset_right = 179.0
+offset_bottom = 434.0
+text = "-10 $"
+
+[node name="neg_bet5" type="Button" parent="."]
+offset_left = 29.0
+offset_top = 252.0
+offset_right = 179.0
+offset_bottom = 338.0
+text = "-5 $"
+
+[node name="neg_bet1" type="Button" parent="."]
+offset_left = 29.0
+offset_top = 153.0
+offset_right = 179.0
+offset_bottom = 239.0
+text = "-1 $"
+
+[node name="moneyLabel" type="Label" parent="."]
+offset_left = 29.0
+offset_top = 30.0
+offset_right = 387.0
+offset_bottom = 122.0
+theme_type_variation = &"HeaderLarge"
+theme_override_font_sizes/font_size = 45
+text = "100  $"
+vertical_alignment = 1
+
+[node name="betLabel" type="Label" parent="."]
+offset_left = 767.0
+offset_top = 30.0
+offset_right = 1139.0
+offset_bottom = 122.0
+theme_type_variation = &"HeaderLarge"
+theme_override_font_sizes/font_size = 45
+text = "0  $"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="dealBtn" type="Button" parent="."]
+offset_left = 812.0
+offset_top = 545.0
+offset_right = 932.0
+offset_bottom = 631.0
+theme_override_font_sizes/font_size = 45
+text = "DEAL"
+
+[node name="hitBtn" type="Button" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -116.0
+offset_top = 545.0
+offset_right = 130.0
+offset_bottom = 631.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 45
+text = "HIT"
+
+[node name="standBtn" type="Button" parent="."]
+offset_left = 220.0
+offset_top = 545.0
+offset_right = 376.0
+offset_bottom = 631.0
+theme_override_font_sizes/font_size = 45
+text = "STAND"
+
+[node name="pKortti1" type="ColorRect" parent="."]
+offset_left = 220.0
+offset_top = 341.0
+offset_right = 346.0
+offset_bottom = 513.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="pKortti1"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="pKortti2" type="ColorRect" parent="."]
+offset_left = 370.0
+offset_top = 341.0
+offset_right = 496.0
+offset_bottom = 513.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="pKortti2"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="pKortti3" type="ColorRect" parent="."]
+offset_left = 520.0
+offset_top = 341.0
+offset_right = 646.0
+offset_bottom = 513.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="pKortti3"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="pKortti4" type="ColorRect" parent="."]
+offset_left = 670.0
+offset_top = 341.0
+offset_right = 796.0
+offset_bottom = 513.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="pKortti4"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="pKortti5" type="ColorRect" parent="."]
+offset_left = 820.0
+offset_top = 341.0
+offset_right = 946.0
+offset_bottom = 513.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="pKortti5"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="pTotalLabel" type="Label" parent="."]
+offset_left = 782.0
+offset_top = 230.0
+offset_right = 1140.0
+offset_bottom = 322.0
+theme_type_variation = &"HeaderLarge"
+theme_override_font_sizes/font_size = 45
+text = "
+"
+vertical_alignment = 1
+
+[node name="dKortti1" type="ColorRect" parent="."]
+offset_left = 220.0
+offset_top = 27.0
+offset_right = 346.0
+offset_bottom = 199.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.10563, 0.549153, 0.232629, 1)
+
+[node name="TextureRect" type="TextureRect" parent="dKortti1"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="dKortti2" type="ColorRect" parent="."]
+offset_left = 370.0
+offset_top = 27.0
+offset_right = 496.0
+offset_bottom = 199.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="dKortti2"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="dKortti3" type="ColorRect" parent="."]
+offset_left = 520.0
+offset_top = 27.0
+offset_right = 646.0
+offset_bottom = 199.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="dKortti3"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="dKortti4" type="ColorRect" parent="."]
+offset_left = 670.0
+offset_top = 27.0
+offset_right = 796.0
+offset_bottom = 199.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="dKortti4"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="dKortti5" type="ColorRect" parent="."]
+offset_left = 820.0
+offset_top = 27.0
+offset_right = 946.0
+offset_bottom = 199.0
+scale = Vector2(0.884532, 1.03253)
+color = Color(0.105882, 0.54902, 0.231373, 1)
+
+[node name="TextureRect" type="TextureRect" parent="dKortti5"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 172.0
+expand_mode = 1
+
+[node name="dTotalLabel" type="Label" parent="."]
+offset_left = 36.0
+offset_top = 235.0
+offset_right = 394.0
+offset_bottom = 327.0
+theme_type_variation = &"HeaderLarge"
+theme_override_font_sizes/font_size = 45
+text = "
+"
+vertical_alignment = 1
+
+[node name="infoLabel" type="Label" parent="."]
+offset_left = 249.0
+offset_top = -7.0
+offset_right = 1177.0
+offset_bottom = 542.0
+theme_type_variation = &"HeaderLarge"
+theme_override_colors/font_color = Color(1, 0.6, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 0.368627, 0, 1)
+theme_override_font_sizes/font_size = 120
+vertical_alignment = 1
+
+[connection signal="pressed" from="bet1" to="." method="_on_bet_1_pressed"]
+[connection signal="pressed" from="bet5" to="." method="_on_bet_5_pressed"]
+[connection signal="pressed" from="bet50" to="." method="_on_bet_50_pressed"]
+[connection signal="pressed" from="bet20" to="." method="_on_bet_20_pressed"]
+[connection signal="pressed" from="bet10" to="." method="_on_bet_10_pressed"]
+[connection signal="pressed" from="neg_bet50" to="." method="_on_neg_bet_50_pressed"]
+[connection signal="pressed" from="neg_bet20" to="." method="_on_neg_bet_20_pressed"]
+[connection signal="pressed" from="neg_bet10" to="." method="_on_neg_bet_10_pressed"]
+[connection signal="pressed" from="neg_bet5" to="." method="_on_neg_bet_5_pressed"]
+[connection signal="pressed" from="neg_bet1" to="." method="_on_neg_bet_1_pressed"]
+[connection signal="pressed" from="dealBtn" to="." method="_on_bet_50_pressed"]
+[connection signal="pressed" from="hitBtn" to="." method="_on_bet_50_pressed"]
+[connection signal="pressed" from="standBtn" to="." method="_on_bet_50_pressed"]
